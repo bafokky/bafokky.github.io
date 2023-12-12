@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="../Images/favicon.png" type="image/x-icon">
+<link href="../CSS/course.css" rel="stylesheet">
+    <title>OptiMeal</title>
+</head>
+<body>
+
+    <header class="container">
+        <div id="header">
+        <div class="logo">
+        <img alt="Логотип OptiMeal kids " src="../Images/logo.png">
+    </div>
+<nav>
+    <a href="#third">Главная</a>
+    <a href="#fourth">Товары</a>
+    <a href="#fifth">Что выбрать</a>
+    <a href="#contact">Контакты</a>
+</nav>
+<div class="social">
+    <a target="_blank" href="https://www.instagram.com/?ysclid=lpzoljag7a991324518"><img src="../Images/instagramm.png"></a>
+    <a target="_blank" href="https://vk.com/feed"><img src="../Images/vk.png"></a>
+    <a target="_blank" href="https://www.whatsapp.com/"><img src="../Images/watsapp.png"></a>
+</div>
+</div>
+    </header>
+
+<main class="main">
+    <div class="return"><a href="#header"><img src="../Images/return.png"></a></div>
+    <section class="first_conteiner">
+        <div id="first">
+            <div class="first_info">
+<h1 class="h1">Линейка витаминов для детей</h1>
+<h1 class="h1_mobile mobile">Витамины для детей</h1>
+<p class="p_first">Новая линейка детских БАДов, соответствующих прогрессивному времени, OptiMeal KIDS 
+    Разработано ведущими экспертами России в области специализированного детского питания. 
+    Миссия компании - заботиться о здоровье Ваших детей, создавая только эффективные и удобные формы витаминов и пищевых добавок.</p>
+<p class="p_mobile mobile">Разработано ведущими экспертами России в области специализированного детского питания.</p>
+<div class="button"><a href="course_error.html" >Подробнее</a></div>
+</div>
+<div>
+    <img alt="Яблоко и банан" src="../Images/personajy_mobile.png">
+</div>
+<div>
+    <img alt="Клубника и тоффи" src="../Images/personajy 2.png"> 
+</div>
+</div>
+</section>
+
+<section class="second_container">
+<div id="second">
+    <h2>Новая линейка
+        My #1st OptiMeal KIDS</h2>
+        <div class="facts">
+
+<figure>
+     <img alt="Фрукты в банке" src="../Images/fact1.png">
+    <figcaption>Уникальное сочетание</figcaption>
+    <p>Уникальное сочетание эффективных дозировок и приятных вкусов без консервантов и искусственных красителей.</p>
+</figure>
+
+<figure>
+  <img alt="Мама с дочкой" src="../Images/fact2.png">
+    <figcaption>Витаминов хватит на всех!</figcaption>
+    <p>Добавки от OptiMeal kids подойдут для всей семьи, они одинаково важны для детей и взрослых, не откажите себе в удовольствие насладиться вкусами с пользой для здоровья.
+    </p>
+</figure>
+
+<figure>
+ <img alt="Капсула растворяется в стакане" src="../Images/fact3.png">
+    <figcaption>Удобная и эффективная форма выпуска</figcaption>
+    <p>Эффективная концентрация действующих веществ совмещена с удобной формой применения. Восполнять дефицит витаминов теперь легко и приятно.  </p>
+</figure>
+        </div>
+</div>
+</section>
+
+<div class="third_container">
+<section id="third">
+
+    <figure id="vitamin1" onclick="changeSlide(0)">
+        <img alt="Банка с витаминами My first calcium" src="../Images/vit1.png">
+        <figcaption>Крепкие кости</figcaption>
+    </figure>
+
+    <figure id="vitamin2" onclick="changeSlide(1)">
+        <img alt="Банка с витаминами My first Vitamins" src="../Images/vit2.png">
+        <figcaption>Комплекс витаминов</figcaption>
+    </figure>
+
+    <figure id="vitamin3" onclick="changeSlide(2)">
+        <img alt="Банка с витаминами My first Vita D3" src="../Images/vit3.png">
+        <figcaption>Рост и развитие</figcaption>
+    </figure>
+
+    <figure id="vitamin4" onclick="changeSlide(3)">
+        <img alt="Банка с витаминами My first Omega 3" src="../Images/vit4.png">
+        <figcaption>Зрение, память, внимательность</figcaption>
+    </figure>
+
+</section>
+</div>
+
+<div class="fourth_container">
+<section id="fourth">
+<div class="slider_container">
+<button onclick="prevSlide()"  class="arrow prev">
+  <img src="../Images/arrow_l.png">
+  <img src="../Images/arrow_l_hover.png">
+</button>
+<div class="slider_img">
+<div class="slides">
+<img alt="Банка с витаминами My first Vitamins" src="../Images/Vitamins_fly_1.png" class="slide">
+<img alt="Банка с витаминами My first calcium" src="../Images/Vitamins_fly_2.png" class="slide">
+<img alt="Банка с витаминами My first Vita D3" src="../Images/Vitamins_fly_3.png" class="slide">
+<img  alt="Банка с витаминами My first Omega 3" src="../Images/Vitamins_fly_4.png" class="slide">
+</div>
+</div>
+
+<div class="slider_info">
+
+    <div>
+    <h5>My <span>#1st</span> Vitamins</h5>
+    <button type="button" id="btn1" onclick="toggleButton('btn1')" class="active">Описание продукта</button>
+    <button type="button" id="btn2" onclick="toggleButton('btn2')">Свойства</button>    
+    <div class="features">
+    <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+    <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+        пастилке 1 раз в день.</p>
+    <ul>
+        <li>Для детей и родителей</li>
+        <li>Вкусы на основе соков</li>
+        <li>Без искусственных красителей</li>
+        <li>Месячный курс</li>
+    </ul>
+    </div>
+    <div class="product hidden">
+        <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+            иммуномодулирующее действие, Укрепление костной ткани.</p>
+    <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+    <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+    </div>
+    <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+    </div>
+
+    <div>
+       <h5>My <span>#1st</span> Calsium</h5>
+       <button type="button" id="btn1" onclick="toggleButton('btn1')">Описание продукта</button>
+       <button type="button" id="btn2" onclick="toggleButton('btn2')">Свойства</button>
+
+       <div class="features hidden">
+       <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+       <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+           пастилке 1 раз в день.</p>
+       <ul>
+           <li>Для детей и родителей</li>
+           <li>Вкусы на основе соков</li>
+           <li>Без искусственных красителей</li>
+           <li>Месячный курс</li>
+       </ul>
+       </div>
+       <div class="product hidden">
+       <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+       иммуномодулирующее действие, Укрепление костной ткани.</p>
+   <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+   <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+       </div>
+       <button type="button" class="button buy" onclick="openModal()">Где купить?</button>
+       </div>
+
+       <div>
+       <h5>My #1st <span>Vita D3</span></h5>
+       <button type="button" id="btn1" onclick="toggleButton('btn1')">Описание продукта</button>
+       <button type="button" id="btn2" onclick="toggleButton('btn2')">Свойства</button>
+
+       <div class="features">
+       <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+       <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+           пастилке 1 раз в день.</p>
+       <ul>
+           <li>Для детей и родителей</li>
+           <li>Вкусы на основе соков</li>
+           <li>Без искусственных красителей</li>
+           <li>Месячный курс</li>
+       </ul>
+       </div>
+       <div class="product hidden">
+        <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+            иммуномодулирующее действие, Укрепление костной ткани.</p>
+       <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+       <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+       </div>
+       <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+       </div>
+
+       <div>
+       <h5>My <span>#1st</span> Omega 3</h5>
+       <button type="button" id="btn1" onclick="toggleButton('btn1')">Описание продукта</button>
+       <button type="button" id="btn2" onclick="toggleButton('btn2')">Свойства</button>       
+       <div class="features">
+       <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+       <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+           пастилке 1 раз в день.</p>
+       <ul>
+           <li>Для детей и родителей</li>
+           <li>Вкусы на основе соков</li>
+           <li>Без искусственных красителей</li>
+           <li>Месячный курс</li>
+       </ul>
+       </div>
+       <div class="product hidden">
+        <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+            иммуномодулирующее действие, Укрепление костной ткани.</p>
+       <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+   <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+       </div>
+       <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+       </div>
+</div>
+<button onclick="nextSlide()" class="arrow next">
+    <img src="../Images/arrow_r.png">
+    <img src="../Images/arrow_r_hover.png"> 
+</button>
+</div>
+</div>
+</section>
+
+<section class="fourth_mobile mobile">
+   <div id="slider_mobile">
+    <div class="slides">
+        <img alt="Банка с витаминами My first Vitamins" src="../Images/vit1.png" class="slide">
+        <img alt="Банка с витаминами My first calcium" src="../Images/vit2.png" class="slide">
+        <img alt="Банка с витаминами My first Vita D3" src="../Images/vit3.png" class="slide">
+        <img alt="Банка с витаминами My first Omega 3" src="../Images/vit4.png" class="slide">
+    </div>
+</div>
+<div class="arrows_mobile mobile">
+    <button class="arrow prev" onclick="prevSlideMobile()"><img src="../Images/arrow_l.png"></button>
+    <button class="arrow next" onclick="nextSlideMobile()"><img src="../Images/arrow_r.png"></button>
+</div>
+
+    
+<div class="info_mobile mobile">
+    <div>
+        <h5>My <span>#1st</span> Vitamins</h5>
+        <button type="button" id="btn10" onclick="toggleInfoMobile('btn10')" class="active">Описание продукта</button>
+        <button type="button" id="btn11" onclick="toggleInfoMobile('btn11')">Свойства</button>    
+        <div class="features_mobile">
+        <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+        <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+            пастилке 1 раз в день.</p>
+        <ul>
+            <li>Для детей и родителей</li>
+            <li>Вкусы на основе соков</li>
+            <li>Без искусственных красителей</li>
+            <li>Месячный курс</li>
+        </ul>
+        </div>
+        <div class="product_mobile hidden">
+            <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+                иммуномодулирующее действие, Укрепление костной ткани.</p>
+        <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+        <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+        </div>
+        <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+        </div>
+    
+        <div>
+           <h5>My <span>#1st</span> Calsium</h5>
+           <button type="button" id="btn12" onclick="toggleInfoMobile('btn12')">Описание продукта</button>
+           <button type="button" id="btn13" onclick="toggleInfoMobile('btn13')">Свойства</button>
+    
+           <div class="features_mobile ">
+           <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+           <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+               пастилке 1 раз в день.</p>
+           <ul>
+               <li>Для детей и родителей</li>
+               <li>Вкусы на основе соков</li>
+               <li>Без искусственных красителей</li>
+               <li>Месячный курс</li>
+           </ul>
+           </div>
+           <div class="product_mobile hidden">
+           <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+           иммуномодулирующее действие, Укрепление костной ткани.</p>
+       <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+       <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+           </div>
+           <button type="button" class="button buy" onclick="openModal()">Где купить?</button>
+           </div>
+    
+           <div>
+           <h5>My #1st <span>Vita D3</span></h5>
+           <button type="button" id="btn14" onclick="toggleInfoMobile('btn14')">Описание продукта</button>
+           <button type="button" id="btn15" onclick="toggleInfoMobile('btn15')">Свойства</button>
+    
+           <div class="features_mobile">
+           <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+           <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+               пастилке 1 раз в день.</p>
+           <ul>
+               <li>Для детей и родителей</li>
+               <li>Вкусы на основе соков</li>
+               <li>Без искусственных красителей</li>
+               <li>Месячный курс</li>
+           </ul>
+           </div>
+           <div class="product_mobile hidden">
+            <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+                иммуномодулирующее действие, Укрепление костной ткани.</p>
+           <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+           <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+           </div>
+           <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+           </div>
+    
+           <div>
+           <h5>My <span>#1st</span> Omega 3</h5>
+           <button type="button" id="btn16" onclick="toggleInfoMobile('btn16')">Описание продукта</button>
+           <button type="button" id="btn17" onclick="toggleInfoMobile('btn17')">Свойства</button>       
+           <div class="features_mobile">
+           <p><span>Форма выпуска:</span> мармеладные пастилки массой 3,4 г.</p>
+           <p><span>Рекомендации по применению:</span> детям старше 3х лет по 1 мармеладной
+               пастилке 1 раз в день.</p>
+           <ul>
+               <li>Для детей и родителей</li>
+               <li>Вкусы на основе соков</li>
+               <li>Без искусственных красителей</li>
+               <li>Месячный курс</li>
+           </ul>
+           </div>
+           <div class="product_mobile hidden">
+            <p>Биологические функции Витамина D3. Согласно многочисленным исследованиям, витамин D3 положительно влияет на целый ряд функций организма, среди которых необходимо выделить:
+                иммуномодулирующее действие, Укрепление костной ткани.</p>
+           <div><p>12+1</p><p>мультивитаминный комплекс</p></div>
+       <p><span>Вкус:</span> банан-яблоко, манго-клубника, клубника-тоффифи</p>
+           </div>
+           <button  type="button" class="button buy" onclick="openModal()">Где купить?</button>
+           </div>
+</div>
+</section>
+
+<div class="fifth_container">
+<div id="fifth">
+    <div>
+    <h5>OptiMeal Kids рекомендует</h5>
+    <ul>
+        <li>
+            <h6>My #1st Vita D3</h6>
+            <p>D3 просто необходим детям, которые мало времени проводят на свежем воздухе.
+                Улучшает способность к обучению и обладает
+                иммуномодулирующим действием</p>
+        </li>
+        <li>
+            <h6>My #1st Calcium</h6>
+            <p>Кальций один из наиболее важных витаминов для растущего организма. Он необходим Вашему ребенку для крепких
+                зубов и ногтей, а также для формирования прочного и здорового костного скелета</p>
+        </li>
+        <li>
+            <h6>My #1st Vitamins</h6>
+            <p>Сбалансированный комплекс витаминов, который содержит 13 важнейших витаминов для гармоничного развития ребенка.</p>
+        </li>
+        <li>
+            <h6>My #1st Omega3</h6>
+            <p>Для укрепления иммунитета, повышения умственных способностей, защиты зрения и правильного формирования костей и зубов.</p>
+        </li>
+    </ul>
+</div>
+<div>
+<img alt="Груша" src="../Images/pear.png">
+</div>
+</div>
+</div>
+
+<section class="sixth_container">
+<div id="sixth">
+    <div>
+    <img alt="Детская раскраска" src="../Images/colbook.png">
+</div>
+    <div class="colbook_information">
+    <h5>Книжка-раскраска в подарок</h5>
+    <p>Чтобы ребенок не отставал в развитии, Вы должны постоянно придумывать новые игры. Особенно важно воспитать в нем усидчивость и умение сосредоточиться.
+                Раскраски прекрасно решают эту задачу.
+                Мы дарим детскую книжку-раскраску при покупке любого из товаров Optimeal Kids в магазинах Детский мир</p>
+    <p class="det_mir">Подробности акции уточняйте у официального
+        дистрибьютора Optimeal kids</p>
+    <p class="mobile">Подробности акции уточняйте в магазинах «Детский мир»</p>
+    <div>
+    <img alt="Логотип Детский Мир" class="det_mir" src="../Images/detmir_logo.png">
+    </div>
+</div>
+</div>
+</section>
+
+<div class="contact_container">
+<div id="contact">
+    <div class="form">
+        <h5>Связаться с нами</h5>
+        <form>
+<input placeholder="Имя">
+<input placeholder="Телефон">
+<button class="button" type="submit">Отправить</button>
+</form>
+</div>
+
+<div class="contact_img">
+<img alt="Оранжевая рыба" src="../Images/or_fish.png">
+<img alt="Жёлтая рыба" src="../Images/yel_fish.png">
+</div>
+</div>
+</div>
+</main>
+
+<footer class="footer">
+<p>Не является лекарственным средством</p>
+<hr>
+<div class="footer_columns">
+    <div>
+        <h6>ПРОИЗВОДИТЕЛЬ</h6>
+        <p>ООО «ЭНЕРГИЯ ДВИЖЕНИЯ» 
+            443080, Самарская обл., 
+            г. Самара, 
+            пр-кт Карла Маркса, д. 190, оф. 507</p>
+    </div>
+
+    <div>
+        <h6>КОНТАКТЫ</h6>
+        <p><a href="tel:+375299263712">8 (846) 225-32-02</a>      <a href="mailto:bafokky@gmail.com">zakaz@optimeal.pro</a>
+            <a href="#header">www.optimeal.pro</a></p>
+
+    </div>
+
+    <div>
+        <div class="social">
+            <a target="_blank" href="https://www.instagram.com/?ysclid=lpzoljag7a991324518"><img src="../Images/instagramm.png"></a>
+            <a target="_blank" href="https://vk.com/feed"><img src="../Images/vk.png"></a>
+            <a target="_blank" href="https://www.whatsapp.com/"><img src="../Images/watsapp.png"></a>
+        </div>
+        <img src="../Images/optimeal_logo.png">
+    </div>
+
+</div>
+</footer>
+<div class="where_buy" id="buyModal">
+    <div class="modal">
+        <h5>Где можно купить OptiMeal Kids?</h5>
+        <p>Всю продукцию из линейки Optimeal Kids вы можете преобрести в магазинах или на сайте Детский мир.</p>
+        <img src="../Images/detmir_logo.png">
+    </div>
+</div>
+<script src="../JS/course.js"></script>
+</body>
+</html>

@@ -376,13 +376,12 @@ figcaption{
 
 #third figure:hover{
     transform: scale(1.3);
-    color:#FF5F4E;
 }
 
 
 #third figure:hover figcaption{
     font-size: 1.4vw ;
-  
+    color:#FF5F4E;
 }
 
 

@@ -204,13 +204,13 @@ button {
 
 #first .button{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
     text-decoration: none;
   background-image: url(../Images/button_bg.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding:  1% 4% 3%;
+  padding:  1% 4% 3% 5%;
   margin:8% 0 0;
   width:35%;
 }

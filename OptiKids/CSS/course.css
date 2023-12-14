@@ -792,18 +792,18 @@ padding-top: 2%;
     display: flex;
     flex-direction:row ;
     justify-content: space-around;
-    height: 70%;
+    height: 80%;
     padding-top: 7%;
 }
 
 .contact_img img{
-    width:51%;
+    width:55%;
     object-fit: contain;
 }
 
 .contact_img img:nth-child(1){
     align-self: flex-end;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .contact_img img:nth-child(2){
@@ -904,13 +904,13 @@ padding-top: 2%;
 
 .footer_columns div:nth-child(1)
 {
-    width: 40%;
+    width: 45%;
     
 }
 
 .footer_columns div:nth-child(2)
 {
-    width:36%;
+    width:31%;
 }
 
 .footer_columns div:nth-child(3)
@@ -1349,6 +1349,19 @@ line-height: 90%;
     font-size: 3.5vw;
 }
 
+.where_buy .modal {
+    height: 40vh;
+    width:35%;
+    padding:7%;
+}
+
+.modal h5 {
+    font-size: 3vw;
+}
+
+.modal p {
+    font-size: 2.5vw;
+}
 
 }
 

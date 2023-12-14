@@ -784,7 +784,7 @@ padding-top: 2%;
     align-items: center;
     color:#FFF;
     height:70%;
-    width:70%;
+    width:60%;
 }
 
 
@@ -792,7 +792,7 @@ padding-top: 2%;
     display: flex;
     flex-direction:row ;
     justify-content: space-around;
-    height: 80%;
+    height: 70%;
     padding-top: 7%;
 }
 
@@ -811,8 +811,8 @@ padding-top: 2%;
 
 #contact h5{
     font-family: Rounded_B;
-    font-size: 2.8vw;
-    margin:0 0 2%;
+    font-size: 2.7vw;
+    margin:0 0 1%;
     line-height: 110%;
 }
 
@@ -822,32 +822,33 @@ padding-top: 2%;
     justify-content: center;
     align-items: flex-start;
     align-self: flex-start;
-    width:40%;
+    width:50%;
     margin: 0;
     padding-top: 7%;
 }
 
 .form input{
-    margin-top: 10%;
+    margin-top: 8%;
     border-radius: 40px;
     border: none;
     color:#038DB3;
-    height:10vh;
+    height:8vh;
     width:100%;
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     text-indent: 12%;
 
 }
 
 .form input::placeholder{
-    font-size: 1.4vw;
+    font-size: 1.3vw;
     color:#038DB3;
 }
 
 .form button{
-    width:35%;
+    width:50%;
     margin:7% auto 0;
-    padding: 1% 7% 1% 4%;
+    padding: 2% 7% 4% 3%;
+    font-size: 1.3vw;
 }
 
 .footer{
@@ -855,14 +856,14 @@ padding-top: 2%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 60%;
     color:#FFF;
     margin: -17% auto 0;
 }
 
 .footer>p{
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 2.75vw;
     margin: 0 0 2%;
 }
 
@@ -902,13 +903,13 @@ padding-top: 2%;
 
 .footer_columns div:nth-child(1)
 {
-    width: 42%;
+    width: 40%;
     
 }
 
 .footer_columns div:nth-child(2)
 {
-    width:34%;
+    width:36%;
 }
 
 .footer_columns div:nth-child(3)

@@ -808,6 +808,7 @@ padding-top: 2%;
 
 .contact_img img:nth-child(2){
     align-self: flex-start;
+    margin-left: -10%;
 }
 
 #contact h5{
@@ -872,7 +873,7 @@ padding-top: 2%;
     border-width: 2px;
     border-color: #FFF;
     width:100%;
-    margin: 0 0 3%;
+    margin: 0 0 2.5%;
 }
 
 .footer h6{
@@ -904,13 +905,13 @@ padding-top: 2%;
 
 .footer_columns div:nth-child(1)
 {
-    width: 45%;
+    width: 43%;
     
 }
 
 .footer_columns div:nth-child(2)
 {
-    width:31%;
+    width:33%;
 }
 
 .footer_columns div:nth-child(3)
@@ -2263,6 +2264,24 @@ width:55%;
 
 .footer_columns .social>a>img {
 width:120%;
+}
+
+.where_buy .modal {
+    width:50%;
+    padding: 15%;
+}
+
+.modal h5 {
+    font-size: 5vw;
+}
+
+.modal p {
+    font-size: 4vw;
+}
+
+.modal img {
+    width:60%;
+    margin-left: 20%;
 }
 
 }

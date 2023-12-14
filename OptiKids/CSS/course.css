@@ -2183,10 +2183,10 @@ font-family: Rounded_B;
     width:100%;
 }
 
-.form h5{
+#contact h5 {
     font-size: 15vw;
     line-height: 110%;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
 
 .form input{
@@ -2205,7 +2205,7 @@ font-family: Rounded_B;
     height:10vh;
     font-size: 7vw;
     padding:2% 10% 6%;
-    margin: 10% 0 0;
+    margin: 10% auto 0;
     justify-content: flex-start;
 }
 
@@ -2229,7 +2229,8 @@ display: none;
 
 .footer {
     width: 90%;
-    margin:-8+0% auto 10%;
+    height: auto;
+    margin:-130% auto 10%;
 
 }
 

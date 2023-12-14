@@ -797,12 +797,13 @@ padding-top: 2%;
 }
 
 .contact_img img{
-    width:45%;
+    width:49%;
     object-fit: contain;
 }
 
 .contact_img img:nth-child(1){
     align-self: flex-end;
+    margin-left: 10%;
 }
 
 .contact_img img:nth-child(2){
@@ -821,7 +822,7 @@ padding-top: 2%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    align-self: flex-start;
+    align-self: center;
     width:50%;
     margin: 0;
     padding-top: 7%;
